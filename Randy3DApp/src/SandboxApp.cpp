@@ -1,15 +1,15 @@
 #include <Randy3D.h>
 
-class Sandbox : public randy3d::Application 
+class SandboxApp : public randy3d::Application 
 {
 public:
 
-	Sandbox() 
+	SandboxApp() 
 	{
 
 	}
 
-	~Sandbox()
+	~SandboxApp()
 	{
 
 	}
@@ -17,5 +17,5 @@ public:
 
 randy3d::Application* randy3d::CreateApplication() 
 {
-	return new Sandbox();
+	return new SandboxApp();
 }

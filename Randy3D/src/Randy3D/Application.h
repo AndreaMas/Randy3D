@@ -13,8 +13,7 @@ namespace randy3d
 		void Run();
 	};
 
-	// do be defined in client app
-	Application* CreateApplication();
+	Application* CreateApplication(); // to be defined in client app
 }
 
 
